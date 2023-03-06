@@ -32,6 +32,17 @@ OpenStreamCamera(detects_class=['cell phone'], objects_class=['person'], path='s
 ```
 In which, `detects_class` be the object(s) that you would focus on and `objects_classs` be the class that you need to restrict on (this parameter could be `polygon` if you want to restict a custom polygon insteed of objects). In addition, `path` would be the video path what you would detect (value `stream` means you use the webcame for realtime detect instead). Finally, `fps` would be the frame for operation detection depends on the strength of your OS.
 
-#### To run, press `run all` for the Jupyter notebook (please clear all kernel before running)
+#### To run, press `run all` for the Jupyter notebook (please clear all kernel before running), after running, press `q` on keyboard for starting detection or `s` for stopping detection.
 
 ## Demo
+- Normal detection:
+
+![saa](https://user-images.githubusercontent.com/81562297/223044983-92e9c433-65a9-40e1-a1a7-6f6e4bcdb8df.png)
+
+- Object (Cell Phone) approaching restricted other object (Person) area
+
+![axczczcz](https://user-images.githubusercontent.com/81562297/223044992-e9730984-422b-49d4-be6c-5258ff648876.png)
+
+- Object (Cell Phone) approaching restricted polygon area
+
+![asxczxcz](https://user-images.githubusercontent.com/81562297/223044996-bbde06e0-2c37-4bb8-87ab-b24e1bbefcd8.png)
