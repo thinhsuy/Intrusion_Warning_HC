@@ -1,6 +1,11 @@
-# Instrusion Warninig Detection
+# Instrusion Warninig Detection - Healthcare Perspective 
 ## Introduction
 An intrusion detection system (IDS, also known as an intrusion prevention system or IPS) is a computer or network program that keeps an eye out for hostile activities or rule violations on a network or in a system. Every intrusion activity or violation is often recorded centrally using a security information and event management (SIEM) system, alerted to an administrator, or both. A system of intrusion is developed by recognizing items and determining whether the objects are being approached by others using the YOLOv4 model architecture.
+
+## IDS in Healthcare Domain
+In healthcare, the adoption of Intrusion Warning Systems, specifically Object Detection, has ushered in a new era of safety and efficiency. Object Detection, a facet of computer vision technology, has emerged as a critical tool in healthcare settings. One notable application involves monitoring prescription storage areas, ensuring the security of vital medications and medical supplies. This technology can promptly detect and alert healthcare staff to any unauthorized access attempts, preventing potential errors or theft and ensuring patient well-being.
+
+Another crucial application lies in the safeguarding of sterile surgical environments. Object Detection systems are capable of monitoring surgical zones, detecting any intrusion by a surgeon's hand into a sterile area during a procedure. Immediate alerts can be dispatched to the surgical team, significantly reducing the risk of surgical site infections and enhancing patient safety. The integration of Intrusion Warning (Object Detection) technology represents a groundbreaking step toward elevating patient care and reinforcing the security of healthcare facilities, promising a safer and more efficient future for healthcare delivery.
 
 ## Inspiration Idea:
 - For most of the knowledge of this project figured from https://github.com/kiyoshiiriemon/yolov4_darknet
