@@ -35,14 +35,39 @@ In which, `detects_class` be the object(s) that you would focus on and `objects_
 #### To run, press `run all` for the Jupyter notebook (please clear all kernel before running), after running, press `q` on keyboard for starting detection or `s` for stopping detection.
 
 ## Demo
-- Normal detection:
+- Object (Person) approaching restricted other object (Prescription storage) area
 
-![saa](https://user-images.githubusercontent.com/81562297/223044983-92e9c433-65a9-40e1-a1a7-6f6e4bcdb8df.png)
+<img width="782" alt="Screen Shot 2023-09-22 at 21 21 29" src="https://github.com/thinhsuy/InstrusionWarninig_AI_ObjectDetection/assets/81562297/b19ce8de-be8f-4c5f-be74-1333df66e8d1">
 
-- Object (Cell Phone) approaching restricted other object (Person) area
+- Object (Person's Hand) approaching restricted polygon area
 
-![axczczcz](https://user-images.githubusercontent.com/81562297/223044992-e9730984-422b-49d4-be6c-5258ff648876.png)
+<img width="782" alt="Screen Shot 2023-09-22 at 21 25 23" src="https://github.com/thinhsuy/InstrusionWarninig_AI_ObjectDetection/assets/81562297/95c35da8-4e60-4afc-8bce-f588df513608">
 
-- Object (Cell Phone) approaching restricted polygon area
+# Reference
+@article{zou2023object,
+  title={Object detection in 20 years: A survey},
+  author={Zou, Zhengxia and Chen, Keyan and Shi, Zhenwei and Guo, Yuhong and Ye, Jieping},
+  journal={Proceedings of the IEEE},
+  year={2023},
+  publisher={IEEE}
+}
 
-![asxczxcz](https://user-images.githubusercontent.com/81562297/223044996-bbde06e0-2c37-4bb8-87ab-b24e1bbefcd8.png)
+@article{heng2016intrusion,
+  title={Intrusion warning and assessment method for site safety enhancement},
+  author={Heng, Li and Shuang, Dong and Skitmore, Martin and Qinghua, He and Qin, Yin},
+  journal={Safety science},
+  volume={84},
+  pages={97--107},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@article{tian2019apple,
+  title={Apple detection during different growth stages in orchards using the improved YOLO-V3 model},
+  author={Tian, Yunong and Yang, Guodong and Wang, Zhe and Wang, Hao and Li, En and Liang, Zize},
+  journal={Computers and electronics in agriculture},
+  volume={157},
+  pages={417--426},
+  year={2019},
+  publisher={Elsevier}
+}
